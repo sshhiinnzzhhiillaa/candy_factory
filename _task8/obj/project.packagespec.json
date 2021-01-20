@@ -1,0 +1,76 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\tulin\\source\\repos\\_task8\\_task8\\_task8.csproj",
+    "projectName": "_task8",
+    "projectPath": "C:\\Users\\tulin\\source\\repos\\_task8\\_task8\\_task8.csproj",
+    "outputPath": "C:\\Users\\tulin\\source\\repos\\_task8\\_task8\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "net50-windows"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "dependencies": {
+        "MahApps.Metro.IconPacks.Material": {
+          "target": "Package",
+          "version": "[4.8.0, )"
+        },
+        "Microsoft.Extensions.Configuration.Abstractions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[5.0.1, )"
+        },
+        "Microsoft.Extensions.DependencyInjection.Abstractions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Microsoft.Extensions.Hosting.Abstractions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "MvvmLightLibs": {
+          "target": "Package",
+          "version": "[5.4.1.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        },
+        "Microsoft.WindowsDesktop.App.WPF": {
+          "privateAssets": "none"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

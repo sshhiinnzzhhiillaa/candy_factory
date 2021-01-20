@@ -1,0 +1,13 @@
+﻿<Application x:Class="_task8.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_task8"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <vm:ViewModelLocator
+                xmlns:vm="clr-namespace:_task8"
+                x:Key="Locator" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
