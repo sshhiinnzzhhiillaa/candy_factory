@@ -1,4 +1,4 @@
-﻿using _task8.Domain;
+﻿using FactoryLibrary.Domain;
 using _task8.Messages;
 using GalaSoft.MvvmLight.Messaging;
 using MahApps.Metro.IconPacks;
