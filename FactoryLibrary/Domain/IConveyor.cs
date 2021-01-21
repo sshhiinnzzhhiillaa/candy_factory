@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace _task8.Domain
+namespace FactoryLibrary.Domain
 {
     public abstract class ConveyorBase : IConveyor
     {

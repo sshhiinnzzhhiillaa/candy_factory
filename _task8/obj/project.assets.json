@@ -98,6 +98,16 @@
           "lib/net45/GalaSoft.MvvmLight.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
         }
+      },
+      "FactoryLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FactoryLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FactoryLibrary.dll": {}
+        }
       }
     }
   },
@@ -397,10 +407,16 @@
         "mvvmlightlibs.5.4.1.1.nupkg.sha512",
         "mvvmlightlibs.nuspec"
       ]
+    },
+    "FactoryLibrary/1.0.0": {
+      "type": "project",
+      "path": "../FactoryLibrary/FactoryLibrary.csproj",
+      "msbuildProject": "../FactoryLibrary/FactoryLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "FactoryLibrary >= 1.0.0",
       "MahApps.Metro.IconPacks.Material >= 4.8.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 5.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.1",
@@ -426,7 +442,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5-windows"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -435,7 +451,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\tulin\\source\\repos\\_task8\\FactoryLibrary\\FactoryLibrary.csproj": {
+              "projectPath": "C:\\Users\\tulin\\source\\repos\\_task8\\FactoryLibrary\\FactoryLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

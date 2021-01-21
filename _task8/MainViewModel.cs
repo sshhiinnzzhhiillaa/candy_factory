@@ -1,5 +1,5 @@
-﻿using _task8.Domain;
-using _task8.Domain.Conveyors;
+﻿using FactoryLibrary.Domain;
+using FactoryLibrary.Domain.Conveyors;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System;

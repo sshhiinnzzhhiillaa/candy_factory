@@ -1,0 +1,4 @@
+C:\Users\tulin\source\repos\_task8\FactoryLibrary\obj\Debug\netstandard2.0\FactoryLibrary.csprojAssemblyReference.cache
+C:\Users\tulin\source\repos\_task8\FactoryLibrary\obj\Debug\netstandard2.0\FactoryLibrary.AssemblyInfoInputs.cache
+C:\Users\tulin\source\repos\_task8\FactoryLibrary\obj\Debug\netstandard2.0\FactoryLibrary.AssemblyInfo.cs
+C:\Users\tulin\source\repos\_task8\FactoryLibrary\obj\Debug\netstandard2.0\FactoryLibrary.csproj.CoreCompileInputs.cache

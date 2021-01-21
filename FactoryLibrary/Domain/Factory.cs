@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace _task8.Domain
+namespace FactoryLibrary.Domain
 {
 
     public class Factory

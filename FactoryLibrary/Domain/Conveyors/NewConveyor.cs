@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _task8.Domain.Conveyors
+namespace FactoryLibrary.Domain.Conveyors
 {
     public class NewConveyor : ConveyorBase
     {
